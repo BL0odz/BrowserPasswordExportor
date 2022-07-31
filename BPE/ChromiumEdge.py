@@ -52,7 +52,7 @@ class ChromiumEdge(object):
         self.masterkey = None
 
     def FormatOutput(self) -> None:
-        print(" \n\n====== ChromiumEdge password list : \n")
+        print("\n\n ====== ChromiumEdge password list : \n")
         for x in self.passwdlist:
             print(x)
         
